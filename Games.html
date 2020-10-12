@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+        <!--
+            |￣￣￣￣￣￣￣￣￣￣|
+            |Heloo There,Me E.b | 
+            |＿＿＿＿＿＿＿＿＿＿|
+            (\__/) || 
+            (•ㅅ•) || 
+            / 　 づ
+        -->
+	<!-- Shrek was here, but deleted cuz it was annoying to scroll past-->
+    <!--The start of button script-->
+    <script>
+                function clickCounter() {
+            if (typeof(Storage) !== "undefined") {
+            if (localStorage.clickcount) {
+                localStorage.clickcount = Number(localStorage.clickcount)+1;
+            } else {
+                localStorage.clickcount = 1;
+            }
+            document.getElementById("result").innerHTML = "You have clicked the button " + localStorage.clickcount + " time(s).";
+            } else {
+            document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+            }
+        }
+    </script>
+    <!--End of button script-->
+        <style>
+            .parallax {
+              /* The image used */
+              background-image: url(Background/Background.png);
+            
+              /* Set a specific height */
+              min-height: 500px; 
+            
+              /* Create the parallax scrolling effect */
+              background-attachment: fixed;
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+            </style>
+        <title>Harvey's Website</title>
+        <link rel="stylesheet" href="css/Mainp.css">
+    </head>
+    <body>
+        <header>
+            <!--Top of each page-->
+            <figure>
+                <a href="file:///E:/The%20Ultimate%20harvey%20Carnival/Main_Carnival2.0.html" ><img src="Images/HarveyWooper.png" width=200 alt= "A beta wooper"></a>
+            </figure>
+            <h1>Harvey's Website</h1>
+        </header>
+        <nav>
+        <!--Sightwide navigation bar-->
+        <p><a href="Main_Carnival2.0.html">Home</a></p>
+        <p><a href="Games.html">Games</a></p>
+        <!--<p><a href="Button Game.html">Potatos Game(Beta)</a></p>
+        <p><a href="Beta_Carnival.html">Old Carnival</a></p>-->
+        <p><a href="Database.html">Database</a></p>
+        </nav>
+        <div role="main" class="main" lang="en">
+                <!--main page content-->
+
+
+    <h1>These are games that I have created:</h1>
+    <P>I made these games using the game creating platform, construct 3 using help from various sources
+       such as the Learncoach website and youtube. (You may want to turn sound off as two of the games
+       have sound and they don't sound nice if played simultaneously)
+    </p>
+    <center>
+         <iframe width="560" height="315" allow="fullscreen; autoplay; encrypted-media" src="https://games.construct.net/14087/latest" frameborder="0" allowfullscreen="true" msallowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" allowpaymentrequest="false" referrerpolicy="unsafe-url" sandbox="allow-same-origin allow-forms allow-scripts allow-pointer-lock allow-orientation-lock allow-popups" scrolling="no"></iframe>
+         <iframe width="560" height="315" allow="fullscreen; autoplay; encrypted-media" src="https://games.construct.net/17190/latest" frameborder="0" allowfullscreen="true" msallowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" allowpaymentrequest="false" referrerpolicy="unsafe-url" sandbox="allow-same-origin allow-forms allow-scripts allow-pointer-lock allow-orientation-lock allow-popups" scrolling="no"></iframe>
+         <iframe width="560" height="315" allow="fullscreen; autoplay; encrypted-media" src="https://games.construct.net/15685/latest" frameborder="0" allowfullscreen="true" msallowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" allowpaymentrequest="false" referrerpolicy="unsafe-url" sandbox="allow-same-origin allow-forms allow-scripts allow-pointer-lock allow-orientation-lock allow-popups" scrolling="no"></iframe>
+</center>
+            </div>
+                <!--bottom of the page-->
+                <footer>
+                    <p class= "center">&copy; Est. 2020 Harvey</p>
+                </footer>
+                <!--This is where the gud stuff at:https://www.w3schools.com/howto/default.asp-->
+                
+</body>
+</html>

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Amiri|Bebas+Neue|Calistoga|Crimson+Text|EB+Garamond|Englebert|Iceberg|Istok+Web|McLaren|Quicksand|Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Sans:ital,wght@1,200&display=swap');
+body {
+    background-color: whitesmoke;
+    background-image: url(); 
+    background-repeat: repeat-y;
+    background-size: contain;
+    font-family: 'quicksand', sans-serif;
+    margin: 0; /*remove all body margins*/
+    font-size: 120%;
+    cursor: url(), auto; /*has to be a url, I dont know how to use downloaded stuff*/
+}
+header {    
+    display: flex;
+    align-items: center;
+    background-color: #D6FFF6;
+}
+header h1 {
+    font-family: 'mclaren', cursive;
+    color:#5e30cc;
+    font-size: 400%;
+}
+nav {
+    background-color: #0a85d8;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+    display: flex; /*Display the children of this element as flexible boxes*/
+    align-items: center; /*align child flexible boxes in the vertical center*/
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    color: red; 
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3em;
+    background: #0a85d8;
+    border-top: solid black thin;
+    box-shadow: 0px -2px #5e30cc;
+}
+
+nav p{
+    text-align: center;
+    flex-basis: 100px; /* Give each paragraph the same basic width*/
+    flex-grow: 1; /*allow each paragraph to fill up evenly to fill up the parent nav element*/
+}
+h1,h2 {
+    font-family: 'mclaren', cursive;
+    color:#5e30cc;
+}
+
+.main{
+    margin: 1em;
+    margin-right: 1em;
+    margin-bottom: 4em;/*larger margin to allow for the footer*/
+}
+.center {
+    text-align: center;
+}
+.wrap {
+    float: right;
+}
+/*this is the button*/
+.button {
+    background-color: #0a85d8;
+    border: none;
+    color: whitesmoke;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
+/*table*/
+
+table.Students {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    width: 70%;
+}
+
+th.Students, td.Students {
+    border: 1px solid black;    
+    
+}
+div.c {
+    box-align: right;
+  } 
+
+.float-img {
+      float: right;
+      clear: right;
+      margin-right: 10px;
+      margin-bottom: 5px;
+      border: solid black 1px
+      padding: 2px
+  }
